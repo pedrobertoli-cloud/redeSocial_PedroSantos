@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(210, 135, 253) ;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px ;
+    min-height: 890px;
+    background-color:rgb(94, 206, 250);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 85%;
+}
+
+.footer{
+    margin-top: 100PX;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color:grey ;
+}
+
+ul{
+    font-size: large;
+}
